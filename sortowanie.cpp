@@ -1,19 +1,4 @@
 #include "sortowanie.hh"
-/*template<typename typ>
-void quicksort(typ tab[], int poczatek, int ilosc_elem){
-    if(poczatek<ilosc_elem-1) {
-        //ilosc_elem=ilosc_elem-poczatek;
-        //int i=poczatek+1;
-    int licznik=poczatek;
-for(int i=poczatek+1;i<=ilosc_elem-1;i++){
-    if(tab[i]<tab[poczatek]){
-        licznik++;
-            swap(tab[i],tab[licznik]);
-            }}
-            swap(tab[licznik],tab[poczatek]);
-	quicksort(tab, poczatek, licznik);
-	quicksort(tab, licznik+1, ilosc_elem);
-}   }*/
 template<typename typ>
 void quicksort(typ tab[], int poczatek, int koniec){
     if(poczatek<koniec) {
